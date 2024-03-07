@@ -1,0 +1,12 @@
+{
+    "include": [
+        "src"
+    ],
+    "compilerOptions": {
+        "outDir": "build",
+        "target": "ES6",
+        "lib": ["ES6","DOM"], //코드가 동작하는 환경을 알려줌
+        "strict" : true,
+        "allowJs": true, //자바스크립트를 허용
+    }
+}
